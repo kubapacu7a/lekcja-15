@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>lekcja 15</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Przykład definiowania kotwicy">
+    <meta name="author" content="Jakub Pacuła">
+    <meta name="robots" content="all">
+    <style>
+    img{
+        height: 500px;
+    }
+    </style>
+</head>
+<body>
+    <h1>Jak definiujemy kotwicę na stronie:</h1>
+
+    <section>
+        <h2 id="a_top">Tutaj zdefiniowaliśmy kotwicę o nazwie <i>a_top</i></h2>
+        <p>
+            <a href="#a_bottom">To jest link do kotwicy dolnej</a>
+        </p>
+        <figure>
+            <img src="https://a.espncdn.com/photo/2024/0525/r1337364_1296x729_16-9.jpg" >
+            <figcaption>
+                Rysunek 1. luka donicic
+            </figcaption>
+        </figure>
+    </section>
+
+    <section>
+        <br /><br /><br />
+        <p>
+            Zdefiniowanie kotwicy w konkretnym miejscu dokumentu HTML<br />
+            i wskazanie tej kotwicy w linku do tego dokumentu,<br />
+            spowoduje po jego otwarciu, przewinięcie -<br />
+            tak aby wiersz zawierający kotwicę znajdował się jak najbliżej górnej krawędzi okna przeglądarki.<br />
+            Aby było co przewijać dodamy dwa rysunki kotwic oraz linie puste,<br />
+            a następnie, zdefiniujemy dwie kotwice.
+        </p>
+        <br /><br /><br />
+    </section>
+
+    <section>
+        <a name="a_bottom"></a>
+        <h2>Tutaj została zdefiniowana kotwica o nazwie <i>a_bottom</i></h2>
+        <p>
+            <a href="#a_top">To jest link do kotwicy górnej</a>
+        </p>
+        <figure>
+            <img src="https://preview.redd.it/news-ja-morant-will-have-a-follow-up-consultation-tomorrow-v0-4j2rgi9sirzd1.jpeg?width=640&crop=smart&auto=webp&s=88b9b786bc9ad333ddf44834a1697d1c98dc6ed6">
+            <figcaption>
+                Rysunek 2. ja morant
+            </figcaption>
+        </figure>
+    </section>
+</body>
+</html>
